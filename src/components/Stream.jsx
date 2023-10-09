@@ -1,8 +1,5 @@
 "use client";
-import { useAuth } from "@/context/AuthContext";
-import axios from "axios";
 import { useEffect, useState } from "react";
-import ReactHtmlParser from "react-html-parser";
 
 const Stream = ({ ticket }) => {
   const [streamData, setStreamData] = useState("");
